@@ -7,7 +7,7 @@ O código foi desenvolvido com base nas aulas do Prof. Isidro.
 Reconhece e associa tokens aos seguintes tipos:
 
 IDENTIFICADOR
-	(letra | "_")(letra | "_" | dígito)*
+	(letra | "__")(letra | "__" | dígito)*
 
 INTEIRO
 	digito+
