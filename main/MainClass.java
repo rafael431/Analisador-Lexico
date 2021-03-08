@@ -23,7 +23,7 @@ public class MainClass {
 		reservadas.add("char");
 		
 		try {
-			LexScanner sc = new LexScanner("D:\\Rafael 2021\\UNICAP\\2021.1\\COMPILADORES\\input.txt");
+			LexScanner sc = new LexScanner("D:\\Rafael 2021\\UNICAP\\2021.1\\COMPILADORES\\input.txt"); //descrever o caminho do arquivo a ser lido
 			Token token = null;
 			
 			do {
@@ -36,7 +36,7 @@ public class MainClass {
 			} while (token != null);
 			
 		} catch(IsiLexicalException ex) {
-			System.out.println("Erro léxico: "+ ex.getMessage());
+			System.out.println("Erro lÃ©xico: "+ ex.getMessage());
 			
 		}
 		catch(Exception ex) {
